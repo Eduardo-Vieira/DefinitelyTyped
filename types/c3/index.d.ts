@@ -639,6 +639,9 @@ export interface CullingConfiguration {
 }
 
 export interface Grid {
+    focus?: {
+        show: false
+    };
     x?: {
         /**
          * Show grids along x axis.
